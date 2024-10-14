@@ -1,6 +1,11 @@
 {
+  "name": "@annervisser/slug",
+  "version": "1.2.0",
+  "exports": "./mod.ts",
   "tasks": {
     "test": "deno test"
   },
-  "importMap": "./import_map.json"
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.6"
+  }
 }

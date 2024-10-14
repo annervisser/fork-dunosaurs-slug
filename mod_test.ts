@@ -1,4 +1,4 @@
-import { assertEquals } from "std/testing/asserts.ts";
+import { assertEquals } from "@std/assert";
 import { slug } from "./mod.ts";
 
 Deno.test("Test all README examples", () => {
