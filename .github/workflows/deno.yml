@@ -11,9 +11,10 @@ jobs:
         os: [ubuntu-latest, windows-latest, macOS-latest]
       fail-fast: true
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
       - name: download deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@v1
         with:
           deno-version: "2.0.0"
 
