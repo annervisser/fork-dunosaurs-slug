@@ -1,5 +1,8 @@
 import { characters, locales } from "./lib/locale.ts";
 
+/**
+ * Interface for the options that can optionally be passed as second argument of {@link slug}
+ */
 export interface SlugOptions {
   replacement: string;
   remove: RegExp;
