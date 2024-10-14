@@ -27,5 +27,7 @@ slug("some ƒÚÑķÝ and ☢ string", {
 
 ## Propers
 
+Fork of https://github.com/dunosaurs/slug for publishing to JSR
+
 Heavily inspired by: [Slug](https://www.npmjs.com/package/slug) and
 [Slugify](https://www.npmjs.com/package/slugify)
